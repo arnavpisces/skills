@@ -139,3 +139,7 @@ skills/
 ## Adding more skills
 
 Put each new skill in `skills/<skill-name>/` with its own `SKILL.md` and any supporting files it needs. Add its name, link, and description to the table above. Keep generated output, credentials, and device diagnostics out of the repository.
+
+## Contributing
+
+Fork the repository, make your changes on a branch in your fork, and open a pull request against `main`. Only [@arnavpisces](https://github.com/arnavpisces) can update `main` directly and merge accepted contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow.
