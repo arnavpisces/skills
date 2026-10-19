@@ -17,6 +17,7 @@ Built from troubleshooting a sluggish OnePlus TV: identifying unused background 
 The skill covers:
 
 - Finding the right TV on the local network and connecting through ADB.
+- Asking whether debugging is enabled and guiding Developer options, pairing, and on-TV authorization when needed.
 - Inspecting running apps, services, CPU, memory, storage, and optional network activity.
 - Separating real resource use from misleading firmware counters and stale storage reports.
 - Recommending what to stop, disable, or uninstall, including tradeoffs and rollback.
@@ -110,6 +111,7 @@ skills/
     │   ├── agents/
     │   │   └── openai.yaml
     │   ├── references/
+    │   │   ├── debugging-setup.md
     │   │   └── field-guide.md
     │   └── scripts/
     │       └── collect_tv.py

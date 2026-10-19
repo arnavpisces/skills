@@ -7,6 +7,10 @@ description: Discover Android or Google TVs on local Wi-Fi, connect through auth
 
 Diagnose the user's TV from measurements, then recommend changes with clear benefits, functional losses and rollback commands. Read [the field guide](references/field-guide.md) for discovery, ADB setup, commands and firmware measurement pitfalls from a OnePlus TV investigation.
 
+## Debugging setup helper
+
+Before the first ADB connection attempt, establish whether debugging is enabled. If a current authorized ADB connection already works or the user has just confirmed setup, continue without asking again. Otherwise use [the debugging setup helper](references/debugging-setup.md) to ask whether USB debugging or wireless/network debugging is enabled in Developer options, then guide the user according to their answer. Local-network discovery and checking host tools can proceed while waiting; do not repeatedly attempt ADB connections before setup is resolved.
+
 ## Discover and identify
 
 - Identify the host's active LAN interface and subnet. Prefer mDNS Android TV remote and Google Cast advertisements; resolve targets to current addresses. DHCP addresses change. Cross-check model/device identity after connecting; an old IP or Cast name alone is insufficient.
