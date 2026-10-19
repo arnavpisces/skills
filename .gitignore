@@ -1,0 +1,12 @@
+# Local OS and Python files
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and diagnostic output
+.env
+.env.*
+!.env.example
+/diagnostics/

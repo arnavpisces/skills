@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android TV Tune-up"
+  short_description: "Discover TVs and diagnose RAM, storage, and CPU"
+  default_prompt: "Use $android-tv-tuneup to find my Android TV on Wi-Fi, inspect its resource usage, and recommend reversible improvements."
