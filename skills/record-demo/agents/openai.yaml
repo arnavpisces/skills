@@ -1,0 +1,4 @@
+interface:
+  display_name: "Record Demo"
+  short_description: "Narrated product demos with real footage and intros"
+  default_prompt: "Use $record-demo to create a narrated product demo with real screen recordings and an animated intro."
